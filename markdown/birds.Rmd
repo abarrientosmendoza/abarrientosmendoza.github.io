@@ -1,0 +1,3 @@
+Use `includeMarkdown("path/to/birds.Rmd")` to include large chunks of text to keep `ui.R` more readable.
+
+Image files are placed in subdirecotry `www/` and insert an image with `img(src = "birds.png")`.
