@@ -181,8 +181,8 @@ ui <- fluidPage(
   sliderInput("date", "Fecha", min = 1, max = 31, value = 1)))
 
  
-server <- function(input, output, session) {
-    output$map <- renderLeaflet({ g(input$date)})
+server <- function(input, output) {
+  output$map <- renderLeaflet({ g(input$date)})
   } 
 
 
